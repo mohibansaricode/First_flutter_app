@@ -1,4 +1,5 @@
 import 'package:firstproject/login_view.dart';
+import 'package:firstproject/whatsApp_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: LoginView(),
+      home: WhatsApp_view(),
     );
   }
 }
